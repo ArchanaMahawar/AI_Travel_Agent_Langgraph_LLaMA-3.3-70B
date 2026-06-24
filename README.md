@@ -34,7 +34,7 @@ The system uses 4 AI agents that work together to plan a complete trip automatic
 
 Open the terminal inside the project folder and run:
 
-		python -m venv langgraph_env3
+		python -m venv langgraph_env2
 
 
 Now activate the environment:
@@ -42,11 +42,6 @@ Now activate the environment:
 #### Windows
 
 		langgraph_env3\Scripts\activate
-
-
-#### YouTube Tuturial (Hindi) - https://youtu.be/ctHby5vhDqg
-
-#### YouTube Tuturial (English) -  https://youtu.be/_5XF5CCnbDk
 
 ---
 
@@ -98,7 +93,7 @@ TAVILY_API_KEY=your_tavily_api_key
 
 AVIATIONSTACK_API_KEY=your_aviationstack_api_key
 
-DATABASE_URL=postgresql://postgres:postgres@localhost:5433/langgraph_memory_demo
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/langgraph_memory
 
 
 ---
@@ -146,7 +141,7 @@ This will launch the Multi-Agent AI web application.
 
 #### Example Prompt
 
-Plan a complete 7 days Japan trip including flights, hotels and sightseeing under 2 lakhs.
+Plan a complete 10 days Europe trip including flights, hotels and sightseeing under 2 lakhs.
 
 
 ---
